@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test":"echo no test",
+    "test":"@echo no test",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
