@@ -1,7 +1,7 @@
 import React from "react";
 const Navbar = () => {
     return (
-        <div className="h-[100px] bg-blue-300 flex items-center justify-between px-12 shadow-md">
+        <div className="h-[100px] bg-blue-400 flex items-center justify-between px-12 shadow-md">
 
             <h1 className="text-3xl font-bold text-gray-800">Coal India Contractor Portal</h1>
 
