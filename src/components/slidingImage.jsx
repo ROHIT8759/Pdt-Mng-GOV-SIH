@@ -29,19 +29,23 @@ const ImageSlider = () => {
 
     return (
         <div className="relative w-full h-[40vh] overflow-hidden bg-blue-50 group">
-            <div
-                className="flex transition-transform duration-5000"
-                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-            >
-                {images.map((image, index) => (
-                    <img
-                        key={index}
-                        src={image}
-                        alt={`Slide ${index + 1}`}
-                        className="w-full h-full object-cover"
-                    />
-                ))}
+            <div className="overflow-hidden">
+                <div
+                    className="flex transition-transform duration-1000 transition-duration-1000 ease-in-out"
+                    style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+                >
+                    {images.map((image, index) => (
+                        <img
+                            key={index}
+                            src={image}
+                            alt={`Slide ${index + 1}`}
+                            className="w-full h-full object-cover"
+                        />
+                    ))}
+                </div>
             </div>
+
+
 
             <button
                 onClick={prevSlide}
