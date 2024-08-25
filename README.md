@@ -21,6 +21,6 @@ paste this command
 ```
 you have to have node installed for this project
 
-# run file 
+# run files 
 npm run dev
 
