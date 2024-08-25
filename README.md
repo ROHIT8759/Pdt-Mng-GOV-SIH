@@ -21,3 +21,6 @@ paste this command
 ```
 you have to have node installed for this project
 
+# run file 
+npm run dev
+
