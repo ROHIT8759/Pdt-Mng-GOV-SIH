@@ -1,24 +1,23 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     return (
         <div className="h-[100px] bg-blue-400 flex items-center justify-between px-12 shadow-md">
-
             <h1 className="text-3xl font-bold text-gray-800">Coal India Contractor Portal</h1>
-
-
-            <div className="flex space-x-10 text-1xl text-gray-700">
-                <div className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
+            <div className="flex space-x-10 text-lxl text-gray-700">
+                <Link to="/" className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
                     Home
-                </div>
-                <div className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
+                </Link>
+                <Link to="/about" className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
                     About
-                </div>
-                <div className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
+                </Link>
+                <Link to="/contact-admin" className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
                     Contact Admin
-                </div>
-                <div className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
+                </Link>
+                <Link to="/login" className="hover:text-blue-600 transition-colors duration-300 cursor-pointer">
                     Login
-                </div>
+                </Link>
             </div>
         </div>
     );
