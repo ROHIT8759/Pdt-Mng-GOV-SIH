@@ -44,3 +44,6 @@ if you are not sure how maybe CS is not for you.
 
 
 
+# run files 
+npm run dev
+
