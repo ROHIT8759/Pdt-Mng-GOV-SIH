@@ -1,9 +1,13 @@
 function ProjectContainer() {
     return (
-        <div className="w-96 h-64 p-6 bg-white shadow-lg rounded-lg">
-            <h1 className="text-2xl font-bold">props</h1>
+        <div className="p-6 mt-14 bg-white rounded-lg"
+            style={{
+                boxShadow: '0px 0px 5px rgba(0, 0, 0, 0.25)',
+                width: '92vw',
+                height: '75vh'
+            }}>
+            {/* {server rendered components will be added here} */}
         </div>
-
     );
 }
 

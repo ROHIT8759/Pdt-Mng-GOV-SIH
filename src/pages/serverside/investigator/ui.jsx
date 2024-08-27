@@ -7,8 +7,10 @@ function Ui() {
                 <h1 className="text-3xl font-bold font-sans">Active Projects</h1>
                 <h1 className="text-3xl font-bold font-sans">Inspector Console</h1>
             </div>
+            <div className="flex justify-center">
+                <ProjectContainer />
+            </div>
 
-            <ProjectContainer />
         </div>
     );
 }
